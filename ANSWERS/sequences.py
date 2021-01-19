@@ -14,4 +14,7 @@ print()
 
 clean_fruits = [ f.strip().lower() for f in fruits ]
 
+print(clean_fruits)
 print(', '.join(clean_fruits))
+print(' '.join(clean_fruits))
+print('-'.join(clean_fruits))
