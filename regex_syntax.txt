@@ -1,0 +1,93 @@
+
+    pet    "Nelly is a pet dog"    "I like petunias"  "The carpet is dirty due to our pets"
+
+    p.t    'p' + any char + 't'    ...pat... p,t   pot   ...p t....
+
+    p..t
+
+    p\.t   'p' + '.' + 't'
+
+    p[aeiou]t      spate  petunia   spot   pittance   NOT   "keep to the right"   "hip,tip"
+
+    p[a-z]t
+
+    [0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]    SSN
+
+    [0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]   TELEPHONE #
+
+    p[^a-z]t   p t   p.t  p,t  pOt  pAt  p;t
+
+    p[^aeiou]t
+
+    \s [ \t\n\r\b]
+    \S [^ \t\n\r\b]
+
+    foo\s\bar
+
+    \d [0-9]
+    \D [^0-9]
+
+    \w [a-zA-Z0-9_]
+    \W [^a-zA-Z0-9_]
+
+    \d\d\d-\d\d-\d\d\d\d
+
+    \s*\d\d\d-\d\d-\d\d\d\d\s*
+
+   *   0 or more
+   +   1 or more
+   ?   0 or 1
+
+   {n} exactly n
+   {n,m}  n through m
+   {n,}  n or more
+
+   \d{3}-\d{2}-\d{4}
+
+   \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}
+
+   spam\s+ham
+
+   \s*\d+\s*
+
+   p[aeiou]{1,2}t    peat  pout poet  poot piit paat
+
+   pa*t    pt  pat  paaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaat
+
+   grep    g/re/p
+
+   ^spam    ham$  ^toast$    \bfoo bar\b  \bblah\b
+
+   ^\s*k
+
+   ^\s*\d+\s*$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

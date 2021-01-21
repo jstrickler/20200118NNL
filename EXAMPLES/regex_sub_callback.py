@@ -15,12 +15,16 @@ officia deserunt Y45 mollit anim id est laborum"""
 
 rx_code = re.compile(r'(?P<letter>[A-Z])(?P<number>\d{2,3})', re.I)
 
-
+codes = []
 def update_code(m):  # <1>
     letter = m.group('letter').upper()
     number = int(m.group('number'))
-    return '{}:{:04d}'.format(letter, number)  # <2>
-
+    new_code = '{}:{:04d}'.format(letter, number)  # <2>
+    codes.append(new_code)
+    return new_code
 
 s2 = rx_code.sub(update_code, s)  # <3>
 print(s2)
+
+updated_codes = ['{}:{:04d}'.format(s.upper(), int(n)) for s, n in rx_code.findall(s)]
+print(updated_codes)

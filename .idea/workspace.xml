@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dec7d1e0-504f-493e-84ad-31c0b52ce127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error_handling.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/toast.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usemod1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usemod2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usemod3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usewacky.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wombat/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wombat/calc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wombat/calc/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wombat/db/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conditionals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regex_syntax.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EXAMPLES/regex_finding_matches.py" afterPath="$PROJECT_DIR$/EXAMPLES/regex_finding_matches.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EXAMPLES/regex_flags.py" afterPath="$PROJECT_DIR$/EXAMPLES/regex_flags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EXAMPLES/regex_group.py" afterPath="$PROJECT_DIR$/EXAMPLES/regex_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py" afterPath="$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,17 +27,22 @@
     <SUITE FILE_PATH="coverage/py3intro$wombats.coverage" NAME="wombats Coverage Results" MODIFIED="1610983914628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$conditionals_if_while.coverage" NAME="conditionals_if_while Coverage Results" MODIFIED="1610999460391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$list_examples.coverage" NAME="list_examples Coverage Results" MODIFIED="1611066213331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_split.coverage" NAME="regex_split Coverage Results" MODIFIED="1611245073441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$sorting_examples.coverage" NAME="sorting_examples Coverage Results" MODIFIED="1611165099471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$c2f_loop_mod.coverage" NAME="c2f_loop_mod Coverage Results" MODIFIED="1611175308651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ANSWERS" />
     <SUITE FILE_PATH="coverage/py3intro$tuples.coverage" NAME="tuples Coverage Results" MODIFIED="1611069848030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$re.coverage" NAME="re Coverage Results" MODIFIED="1611173286893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_sub.coverage" NAME="regex_sub Coverage Results" MODIFIED="1611244447211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$lambda_functions.coverage" NAME="lambda_functions Coverage Results" MODIFIED="1611166922890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$functions.coverage" NAME="functions Coverage Results" MODIFIED="1611149643977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$reading_text_files.coverage" NAME="reading_text_files Coverage Results" MODIFIED="1611081807977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$list_comprehensions.coverage" NAME="list_comprehensions Coverage Results" MODIFIED="1611072724085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_flags.coverage" NAME="regex_flags Coverage Results" MODIFIED="1611243611378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$toast.coverage" NAME="toast Coverage Results" MODIFIED="1611173037602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$variable_examples.coverage" NAME="variable_examples Coverage Results" MODIFIED="1610985675227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$working_with_sets.coverage" NAME="working_with_sets Coverage Results" MODIFIED="1611088033852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$conditionals.coverage" NAME="conditionals Coverage Results" MODIFIED="1611234721232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_objects.coverage" NAME="regex_objects Coverage Results" MODIFIED="1611243480724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$calling_functions.coverage" NAME="calling_functions Coverage Results" MODIFIED="1611165870852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$usemod2.coverage" NAME="usemod2 Coverage Results" MODIFIED="1611174132577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$while_loops.coverage" NAME="while_loops Coverage Results" MODIFIED="1611001455766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -60,89 +61,109 @@
     <SUITE FILE_PATH="coverage/py3intro$variable_scope.coverage" NAME="variable_scope Coverage Results" MODIFIED="1611150183344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$reading_keyboard.coverage" NAME="reading_keyboard Coverage Results" MODIFIED="1610996679147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$c2f_batch.coverage" NAME="c2f_batch Coverage Results" MODIFIED="1610998021228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_finding_matches.coverage" NAME="regex_finding_matches Coverage Results" MODIFIED="1611243079066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$count_with_dict.coverage" NAME="count_with_dict Coverage Results" MODIFIED="1611087482696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
+    <SUITE FILE_PATH="coverage/py3intro$regex_sub_callback.coverage" NAME="regex_sub_callback Coverage Results" MODIFIED="1611244878416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/EXAMPLES" />
     <SUITE FILE_PATH="coverage/py3intro$string_examples.coverage" NAME="string_examples Coverage Results" MODIFIED="1610986231378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/py3intro$numeric_examples.coverage" NAME="numeric_examples Coverage Results" MODIFIED="1610993632682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wombat/calc/utils.py">
+      <file leaf-file-name="regex_syntax.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regex_syntax.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regex_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regex_group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="44" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="10" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usemod1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usemod1.py">
+      <file leaf-file-name="regex_special.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_special.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wombat/calc/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="432">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="c2f_loop_mod.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ANSWERS/c2f_loop_mod.py">
+      <file leaf-file-name="regex_sub.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_sub.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="449">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usewacky.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usewacky.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usemod2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usemod2.py">
+      <file leaf-file-name="regex_sub_callback.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usemod3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usemod3.py">
+      <file leaf-file-name="regex_split.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="78" lean-forward="false" selection-start-line="0" selection-start-column="78" selection-end-line="0" selection-end-column="78" />
+            <state relative-caret-position="216">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_data_into_dict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_data_into_dict.py">
+      <file leaf-file-name="regex_finding_matches.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_finding_matches.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="56">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regex_objects.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_objects.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regex_flags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_flags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -163,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/wombats.py" />
         <option value="$PROJECT_DIR$/variable_examples.py" />
         <option value="$PROJECT_DIR$/string_examples.py" />
@@ -209,6 +229,12 @@
         <option value="$PROJECT_DIR$/wombat/calc/utils.py" />
         <option value="$PROJECT_DIR$/wombat/calc/__init__.py" />
         <option value="$PROJECT_DIR$/ANSWERS/c2f_loop_mod.py" />
+        <option value="$PROJECT_DIR$/conditionals.py" />
+        <option value="$PROJECT_DIR$/regex_syntax.txt" />
+        <option value="$PROJECT_DIR$/EXAMPLES/regex_finding_matches.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/regex_flags.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/regex_group.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py" />
       </list>
     </option>
   </component>
@@ -218,7 +244,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="148" />
     <option name="y" value="39" />
     <option name="width" value="1400" />
@@ -252,29 +278,7 @@
             <path>
               <item name="py3intro" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3intro" type="462c0819:PsiDirectoryNode" />
-              <item name="ANSWERS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3intro" type="462c0819:PsiDirectoryNode" />
-              <item name="DATA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3intro" type="462c0819:PsiDirectoryNode" />
-              <item name="wombat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3intro" type="462c0819:PsiDirectoryNode" />
-              <item name="wombat" type="462c0819:PsiDirectoryNode" />
-              <item name="calc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py3intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py3intro" type="462c0819:PsiDirectoryNode" />
-              <item name="wombat" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,111 +308,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.c2f_loop_mod">
-    <configuration name="c2f_loop_mod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.regex_split">
+    <configuration name="regex_flags" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANSWERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3intro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANSWERS/c2f_loop_mod.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/regex_flags.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="regex_objects" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3intro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/regex_objects.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="toast" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="regex_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3intro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/regex_split.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="usemod2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="regex_sub" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3intro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/usemod2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/regex_sub.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="usewacky" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="regex_sub_callback" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3intro" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/usewacky.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.toast" />
-      <item index="1" class="java.lang.String" itemvalue="Python.re" />
-      <item index="2" class="java.lang.String" itemvalue="Python.usewacky" />
-      <item index="3" class="java.lang.String" itemvalue="Python.usemod2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.c2f_loop_mod" />
+      <item index="0" class="java.lang.String" itemvalue="Python.regex_objects" />
+      <item index="1" class="java.lang.String" itemvalue="Python.regex_flags" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regex_sub" />
+      <item index="3" class="java.lang.String" itemvalue="Python.regex_sub_callback" />
+      <item index="4" class="java.lang.String" itemvalue="Python.regex_split" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.c2f_loop_mod" />
-        <item index="1" class="java.lang.String" itemvalue="Python.usemod2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.usewacky" />
-        <item index="3" class="java.lang.String" itemvalue="Python.re" />
-        <item index="4" class="java.lang.String" itemvalue="Python.toast" />
+        <item index="0" class="java.lang.String" itemvalue="Python.regex_split" />
+        <item index="1" class="java.lang.String" itemvalue="Python.regex_sub_callback" />
+        <item index="2" class="java.lang.String" itemvalue="Python.regex_sub" />
+        <item index="3" class="java.lang.String" itemvalue="Python.regex_flags" />
+        <item index="4" class="java.lang.String" itemvalue="Python.regex_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -426,16 +430,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="39" width="1400" height="831" extended-state="0" />
+    <frame x="-8" y="-8" width="1808" height="887" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15751445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12165178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38002774" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35228848" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44787645" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -458,9 +462,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08876561" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2046332" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15751445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12165178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -495,98 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reading_keyboard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2f_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/if_statement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while_loops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ANSWERS/guess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typical_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequence_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="84" column="17" lean-forward="false" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_comprehensions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ANSWERS/sequences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -905,6 +817,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_syntax.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_finding_matches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_flags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_special.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_sub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_sub_callback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/regex_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
