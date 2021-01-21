@@ -23,8 +23,13 @@ if m:
 print()
 
 for m in re.finditer(pattern, s):  # <5>
+    print("Match:", m, end=' --> ')
     print(m.group())
 print()
 
 matches = re.findall(pattern, s)  # <6>
 print("matches:", matches)
+
+# re.match()  add "^" to RE
+# re.fullmatch()   add "^" and "$" to RE
+
