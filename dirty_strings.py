@@ -10,3 +10,13 @@ spam = [
     "Spam",
     "   Spam,    spam, spam,    spam, spam, eggs, and spam      ",
 ]
+
+
+# business logic
+def cleanup(s):
+    return ???
+
+# user interface
+for s in spam:
+    new_s = cleanup(s)
+    print(s, new_s)

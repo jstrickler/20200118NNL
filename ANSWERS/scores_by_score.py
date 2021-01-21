@@ -12,7 +12,7 @@ with open("../DATA/testscores.dat") as f:
         sum += score
         num_scores += 1
 
-for student,score in sorted(iter(scores_of.items()),key=lambda e: (e[1]),reverse=True):
+for student,score in sorted(scores_of.items(),key=lambda e: (e[1]),reverse=True):
 	grade = None
 	if score > 94:
 		grade = 'A'
