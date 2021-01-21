@@ -10,12 +10,7 @@ voluptate velit esse cillum dolore U901 eu fugiat nulla pariatur.
 Excepteur sint occaecat A-110 cupidatat non proident, sunt in H-332 culpa qui 
 officia deserunt Y-45 mollit anim id est laborum"""
 
-rx_code = re.compile(r'(?P<letter>[A-Z])-(?P<number>\d{2,3})', re.I)
+pattern = r'(?P<letter>[A-Z])-(?P<number>\d{2,3})'  # <1>
 
-s2 = rx_code.sub("[REDACTED]", s) # <1>
-print(s2)
-print()
-
-s3, count = rx_code.subn("___", s) # <2>
-print("Made {} replacements".format(count))
-print(s3)
+for m in re.finditer(pattern, s):
+    print(m.group('letter'), m.group('number'))  # <2>
