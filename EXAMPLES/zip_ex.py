@@ -2,6 +2,7 @@
 
 from zipfile import ZipFile,ZIP_DEFLATED
 import os.path
+import shutil
 
 # reading & extracting
 rzip = ZipFile("../DATA/textfiles.zip")
@@ -16,3 +17,4 @@ for base in "parrot tyger knights alice poe_sonnet spam".split():
     filename = os.path.join("../DATA",base + '.txt')
     print("adding {0} as {1}".format(filename,base + '.txt')) 
     wzip.write(filename,base + '.txt')
+
